@@ -36,6 +36,8 @@ declare global {
       'id': string;
       'mobile': boolean;
       'navContentPaneEnabled': boolean;
+      'onEmbedded': (embeddedEl: any) => void;
+      'pageName': string;
     }
   }
 
@@ -64,6 +66,8 @@ declare global {
       'id'?: string;
       'mobile'?: boolean;
       'navContentPaneEnabled'?: boolean;
+      'onEmbedded'?: (embeddedEl: any) => void;
+      'pageName'?: string;
     }
   }
 }
